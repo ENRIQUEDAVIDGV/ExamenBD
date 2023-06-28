@@ -1,0 +1,214 @@
+/* CREACIÓN DE LA TABLA "PRODUCTOS" */
+Create table Productos (
+id number (10),
+nombre char (50),
+precio char (10),
+Num_tipo char (50),
+Num_mar char (50)
+);
+
+Select * from Productos;
+Drop Table Productos; 
+
+/* INSERTAMOS DATOS A LA TABLA DE "PRODUCTOS" */
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (1,'Pambazo', 25, 'Comida', 'Tesoem');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (2,'Tacos', 22, 'Comida', 'Tesoem');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (3,'Hamburguesa', 30, 'Comida', 'Tesoem');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (4,'Papas', 23, 'Frituras', 'Tesoem');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (5,'Quesadillas', 27, 'Comida', 'Tesoem');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (6,'Palomitas', 20, 'Frituras', 'Tesoem');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (7,'Gringa', 17,'Comida', 'Tesoem');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (8,'Papas a la francesa', 25 , 'Comida', 'Tesoem');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (9,'Sandwich', 15, 'Comida', 'Tesoem');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (10,'Torta', 25, 'Comida', 'Tesoem');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (11,'Cafe', 20, 'Bebida', 'Tesoem');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (12,'Comida china', 26, 'Comida', 'Tesoem');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (13,'Pan relleno de chocolate', 22, 'Reposteria', 'Tesoem');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (14,'Tubi papas', 18, 'Frituras', 'SOL');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (15,'Galletas emperador', 22, 'Reposteria', 'Gamesa');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (16,'Mamut', 10, 'Reposteria', 'Gamesa');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (17,'Coca Cola', 15, 'Bebida', 'COca Cola');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (18,'Activia', 23, 'Bebida', 'Danone');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (19,'Snickers', 15, 'Dulce', 'MARS');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (20,'Paleta de Hielo', 12, 'Helado', 'Tesoem');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (21,'MilkyWay', 20, 'Dulce', 'MARS');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (22,'Sincronizadas', 17, 'Comida', 'Tesoem');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (23,'Kitkat', 13, 'Dulce', 'Nestle');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (24,'Yoplait bebible', 15, 'Bebida', 'General Mills');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (25,'Fanta', 12, 'Bebida', 'Coca Cola');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (26,'Sprite', 13, 'Bebida', 'Coca Cola');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (27,'Chetos', 16, 'Frituras', 'PEPSICO');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (28,'Frappes', 18, 'Bebida', 'Tesoem');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (29,'Doritos', 18, 'Frituras', 'PEPSICO');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (30,'Paleta', 13, 'Dulce', ' Vero');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (31,'Empanada', 30, 'Comida', 'Tesoem');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (32,'Pizza', 17, 'Comida', 'Tesoem');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (33,'Jugo', 15, 'Bebidas', 'Tesoem');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (34,'Torta de milanesa', 35, 'Comida', 'Tesoem');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (35,'Torta de salchicha', 25, 'Comida', 'Tesoem');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (36,'Nachos con queso', 20, ' Comida', 'Tesoem');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (37,'Mantecadas ',25 ,'Pan','Bimbo');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (38,'Mazapan ',12 ,'Dulce ','Vero');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (39,'Duvalin ', 8,'Dulce ',' Vero');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (40,'Pulparindo',10 ,'Dulce ','Vero');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (41,'Takis ', 20,'Frituras','Sabritas');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (42,'Licuado ',35 ,'Bebida ','Tesoem');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (43,'Ensalada ',21 ,'Comida ','Tesoem');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (44,'Gordita',27 ,'Comida','Tesoem');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (45,'Bombones ', 5,'Dulce','Vero');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (46,'Sopes',15 ,'Comida','Tesoem');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (47,'Flautas',30 ,'Comida ','Tesoem');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (48,'Tacos dorados',17 ,'Comida ','Tesoem');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (49,'Nuggets ',35 ,'Comida',' Tesoem ');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (50,'Fritos',23 ,'Frituras ','PEPSICO');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (51,'Nachos con carne',39 ,'Comida','Tesoem');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (52,'Ruffles',32 ,'Frituras ','PEPSICO');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (53,'Enchiladas',45 ,'Comida ','Tesoem');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (54,'Chilaquiles ',42 ,'Comida ','Tesoem ');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (55,'Desayuno ',65 ,'Comida','Tesoem');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (56,'Picafresas ',3 ,'Dulce','Vero');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (57,'Paleta semaforo ',5 ,'Dulce',' Vero');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (58,'Manita ',5 ,'Dulce','Vero');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (59,'Papas adobadas',20,'Fritura','Sabritas');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (60,'Fresca',16 ,'Bebida','Coca Cola');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (61,'Mundet',17 ,'Bebida','Coca Cola');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (62,'Pinguinos',16 ,'Reposteria','Bimbo');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (63,'Conchas',17 ,'Reposteria','Bimbo');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (64,'Colchones',25 ,'Reposteria ','Bimbo');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (65,'Cacahuates enchilados', 11, 'Frituras', 'Karate');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (66,'Donitas ',28 ,'Pan', 'Bimbo');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (67,'Cacahuates con ajo', 11, 'Frituras', 'Karate');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (68,'Sopa maruchan', 25, 'Comida', 'Tesoem');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (69,'Agua simple', 13, 'Bebida', 'Tesoem');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (70,'Kranky', 14, 'Dulce', 'Ricolino');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (71,'Sopa', 35, 'Comida', 'Tesoem');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (72,'Arroz', 21, 'Comida', 'Tesoem');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (73,'Panditas', 18, 'Dulce', 'Ricolino');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (74,'Bubulubu', 10, 'Dulce', 'Ricolino');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (75,'Tacos al pastor', 20, 'Comida', 'Tesoem');
+
+/* CREACIÓN DE LA TABLA NUMERO DOS LA CUAL NO TIENE NINGUNA RELACION A LA PRIMERA */
+Create table TABLA2 (
+Id number (10),
+Tipo char (50)
+);
+
+Select * from TABLA2
+Drop table TABLA2; 
+
+/* INSERTAMOS CON UN NEXVAL/SECUENCIA */
+Create or replace trigger nex
+before insert
+on TABLA2
+begin
+insert into TABLA2 values (tabla.nextval,'Higiene personal');
+end nex;
+
+Drop trigger nex; 
+
+/* CREACIÓN DE LA SECUENCIA */
+Create sequence tabla
+start with 1
+increment by 1 
+maxvalue 20
+minvalue 1;
+
+Drop sequence tabla;
+
+/* INSERTAMOS LOS VALORES A LA TABLA2 */
+insert into TABLA2 values (tabla.nextval,'Comida'); 
+insert into TABLA2 values (tabla.nextval,'Frituras'); 
+insert into TABLA2 values (tabla.nextval,'Bebidas'); 
+insert into TABLA2 values (tabla.nextval,'Reposteria'); 
+insert into TABLA2 values (tabla.nextval,'Dulce'); 
+insert into TABLA2 values (tabla.nextval,'Pan'); 
+insert into TABLA2 values (tabla.nextval,'Alcohol'); 
+insert into TABLA2 values (tabla.nextval,'Higiene personal');
+insert into TABLA2 values (tabla.nextval,'Limpieza');
+insert into TABLA2 values (tabla.nextval,'Perfume');
+insert into TABLA2 values (tabla.nextval,'Tabaco');
+
+/* CREACIÓN DE LA TABLA TRES */
+Create table TAB3 (
+id number (10),
+marca nvarchar2 (100)
+);
+
+Select * from TAB3;
+Drop table TAB3; 
+
+/* INSERTAMOS LOS VALORES A LA TABLA3 */
+insert into TAB3 (id, marca) values (1,'Tesoem');
+insert into TAB3 (id, marca) values (2,'SOL');
+insert into TAB3 (id, marca) values (3,'Gamesa');
+insert into TAB3 (id, marca) values (4,'MARS');
+insert into TAB3 (id, marca) values (5,'COca Cola');
+insert into TAB3 (id, marca) values (6,'Danone');
+insert into TAB3 (id, marca) values (7,'Nestle');
+insert into TAB3 (id, marca) values (8,'General Mills');
+insert into TAB3 (id, marca) values (9,'Coca Cola');
+insert into TAB3 (id, marca) values (10,'PEPSICO');
+insert into TAB3 (id, marca) values (11,'Vero');
+insert into TAB3 (id, marca) values (12,'Bimbo');
+insert into TAB3 (id, marca) values (13,'Sabritas');
+insert into TAB3 (id, marca) values (14,'Karate');
+insert into TAB3 (id, marca) values (15,'Ricolino');
+insert into TAB3 (id, marca) values (16,'Camell');
+insert into TAB3 (id, marca) values (17,'Chivas12');
+insert into TAB3 (id, marca) values (18,'Klein');
+insert into TAB3 (id, marca) values (19,'Tommy Hilfiger');
+insert into TAB3 (id, marca) values (20,'Pull');
+
+
+/* JOINS */
+
+Select Productos.nombre, Productos.precio, TABLA2.Tipo, TAB3.marca from TABLA2 full join Productos  ON TABLA2.Tipo = Productos.Num_tipo full join TAB3 ON TAB3.marca = Productos.Num_mar;
+
+Select * from Productos inner join TAB3 on Num_mar = marca where marca='Tesoem';
+
+Select * from Productos left join TABLA2 on nombre = Tipo;
+
+Select * from Productos right join TAB3 on Num_mar = marca;  
+
+Select * from Productos full join TABLA2 on Num_tipo = Tipo full join TAB3 on Num_mar = marca where Num_tipo is null;
+
+Select * from Productos full join TABLA2 on Num_tipo = tipo full join TAB3 on Num_mar = marca  where nombre like 'T%'; 
+
+/* EXTRA: INSERTAR EN LA TABLA "PRODUCTOS" UN PRODUCTO QUE EMPIECE CON "T" Y MOSTRAS EN LA TABLA "EXT" SE INSERTO UN PRODUCTO CON LA VITAMINA T */
+Create table ext (
+id number (10),
+algo char (100)
+);
+
+Select * from ext;
+Drop table ext;
+
+create or replace trigger ext1
+after insert
+on Productos 
+for each row
+when (new.nombre like 'T%') 
+begin
+insert into ext values (1,'Se inserto un producto con la vitamina T ,'|| :new.nombre);
+end ext1;
+
+drop trigger ext1;
+
+/* INSERTAMOS LOS DATOS */
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (76,'Tostadas', 20, 'Comida', 'Tesoem');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (77,'Tamal', 20, 'Comida', 'Tesoem');
+insert into Productos (id,nombre, precio, Num_tipo, Num_mar) values (78,'Toptops', 20, 'Fritura', 'Sabritas');
+
+Select * from Productos;
+Select * from ext; 
+
+/* CREACION DE LA VISTA QUE NOS MUESTRA EL ID, NOMBRE,PRECIO, TIPO Y MARCA, EN ESTA MISMA SOLO SE VISUALIZARAN PRODUCTOS CON UN PRECIO MAYOR A 25 PERO MENOR O IGUAL A 35 */
+Create or replace view Vista1
+as
+Select id, nombre, precio, Num_tipo, Num_mar
+from Productos where precio>25 and id<=35 ;
+
+Select * from Vista1;
+Drop view Vista1; 
+
+/* SAQUEME UN 100, YA TENGO SUEÑO Y DE TANTA COMIDA ME DIO HAMBRE */
